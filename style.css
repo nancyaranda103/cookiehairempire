@@ -1,0 +1,8 @@
+body{ margin:0px;
+padding: 0%;}
+.c-item{  height: 568px;  }
+.c-img{ height:100%;
+object-fit: cover;
+
+}
+.btn-danger{  background-color:rgba(255, 0, 55, 1) ;   }
