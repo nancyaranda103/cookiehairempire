@@ -9,8 +9,11 @@ object-fit: cover;
 .btn-danger{  background-color:rgba(255, 0, 55, 1) ;   }
 .overview{   
 height:180px;
-background-color: antiquewhite;
+background-color: rgb(255, 183, 88);
 
+}
+.rounded-circle{  
+border-radius: 25%;
 
 
 }
