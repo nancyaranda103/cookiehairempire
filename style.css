@@ -1,8 +1,13 @@
-body{ margin:0px;
-padding: 0%;}
+body{height:5800px;    
+    overflow-x: hidden;
+    margin:0px;
+    box-sizing:border-box;
+    padding:0px;
+    }
 .c-item{  height: 568px;  }
 .c-img{ height:100%;
 object-fit: cover;
+
 
 }
 
@@ -12,8 +17,52 @@ height:180px;
 background-color: rgb(255, 183, 88);
 
 }
-.rounded-circle{  
-border-radius: 25%;
+.pic{  
+background: url(img/cook.png);
+
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.svg{
+transform: scale(1.5);
+margin-right: 15px;
+
+}
+.toast{
+bottom: 15px;
+right:15px;
+z-index: 9999;
+position: fixed;
+}
+.bg-img{
+height:100vh ;
+width:100vw;
+object-fit: cover;
+position: absolute;
 
 
 }
+@media (prefers-color-scheme: dark){
+
+    body{
+        background: black;
+    }
+    
+    }
+    body{
+    
+    background: blue;
+    }
+    
+    
+    
+        .covo{
+            background-image: url(assets/trustpilot.png);
+            width:400px;
+            margin-bottom: 400px;
+            transform: scale(5);
+            filter:none;
+            }
+    
+    
